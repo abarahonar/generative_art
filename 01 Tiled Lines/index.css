@@ -1,0 +1,34 @@
+:root {
+    --color-fg: #990011;
+    --color-bg: #FCF6F5;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0em;
+}
+
+canvas {
+    box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center center;
+}
